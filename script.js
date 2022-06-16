@@ -27,12 +27,11 @@ color.onclick = function() {
 }
 
 knopkaFigure.onclick = function () {
-    if (kvadrat.style.background == "" || kvadrat.style.background == "red" || kvadrat.style.background == "green") {
-        kvadrat.style.background = "blue";
-        kvadrat.style.borderRadius = "0%";
+    if (kvadrat.style.background == "yellow") {
+        kvadrat.style.borderRadius = "50%";
     }
     else {
-        kvadrat.style.background = "yellow";
-        kvadrat.style.borderRadius = "50%";
+        kvadrat.style.background == "blue";
+        kvadrat.style.borderRadius = "0";
     }
 }
